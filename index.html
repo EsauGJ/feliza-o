@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Año Nuevo</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="audio" src="./audio.mp3"></audio>
+
+    <div class="feliz">Feliz año Nuevo</div>
+    <div class="ano_novo">
+        <span>202</span>
+        <span class="seis">4</span>
+        <span class="sete">5</span>
+        <div class="balao"></div>
+    </div>
+    <div class="fogos">
+        <div class="f1">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f2">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f3">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f4">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Ver carta
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img src="feliz.jpg">
+            </div>
+            <div class="details">
+                <h4 class="color margin">🌟 Feliz Año Nuevo🌟</h4><br><br>
+                <p><strong>Queridos Canelita, Elsa, Yami, Dani y Rupert:</strong></p>
+                <p>Aunque un año termina y nos dejó malos y buenos momentos,</p>
+                <p>También nos regaló aprendizajes y memorias valiosas. </p>
+                <p>Crean que este nuevo año nos espera con nuevas</p>
+                <p>Oportunidades y experiencias por descubrir. </p>
+                <p>Solo me queda decirles gracias por el tiempo,</p>
+                <p>La amistad y los momentos compartidos.Animo 🫂</p>
+                <p>¡Les deseo un 2025 lleno de salud, felicidad y éxito! 🎆</p><br>
+                <p class="text-right">Un fuerte abrazo para cada uno de ustedes🫂</p>
+                <p class="text-right">✨ ¡Feliz Año Nuevo! 🎉</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
