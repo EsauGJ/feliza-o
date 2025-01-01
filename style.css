@@ -669,12 +669,11 @@ h4 {
 }
 
 .card .details p {
-  font-size: 6px;
-  line-height: 7px;
+  font-size: 7px;
+  line-height: 12px;
   transform: rotate(-10deg);
   padding: 0 0 0 20px;
 }
-
 .card .details h4 {
   text-align: center;
 }
